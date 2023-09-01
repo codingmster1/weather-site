@@ -4,21 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&family=Della+Respira&family=Handjet:wght@500&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Pacifico&family=Pangolin&family=Playfair:wght@300&family=Roboto:ital,wght@0,400;0,700;1,300&family=VT323&display=swap" 
-    rel="stylesheet">
     <title>Weather Forcast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&family=Della+Respira&family=Handjet:wght@500;900&family=Lato:wght@400;700&family=Montserrat:wght@400;700&family=Pacifico&family=Pangolin&family=Playfair:wght@300&family=Roboto:ital,wght@0,400;0,700;1,300&family=VT323&display=swap" 
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42696fbbae.js" 
+    crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js" defer></script>
+    
 </head>
 <body>
-    <div class="background">
-        <img src="images/clear.gif" alt="/">
-    </div>
-    <img id="img-loading-icon" src="images/loading-icon.gif">
+    
+     <!-- INFO ON FAR LEFT-->
+
+     <div class="split info">
+        <div class="centered">
+          <h2 id="city" cityName></h2>
+          <h6 date-time></h6>
+          <div id="temperature" cityTemperature></div>
+          <img src="" id="image" />
+          <p id="cityWeather" cityWeather></p>
+          <div id="weatherInfo">
+            <div id="feeling" tempFeeling></div>
+            <div id="humidity" humidity></div>
+            <div id="wind" wind></div>
+          </div>
+        </div>
+      </div>
+
+      <!--LEFT INFO DISPLAYING CITY AND WEATHER CONDITIONS-->
+
+      <!--RIGHT INFO SEARCH FORM-->
+
+      <div class="split input">
+        <div class="centered">
+          <div id="form-container">
+            <h1>Current Weather</h1>
+            <h5>Search location</h5>
+            <button class="location-button" location-button><i class="fa-solid fa-location-dot" style="color: #080b12;"></i></button>
+              <form container-form>
+                <input
+                  type="text"
+                  placeholder="City or Zip Code.."
+                  id="search"
+                  new-entry
+                  required
+                />
+              </form>
+         <!--END OF FORM-->
+
+
+         <!--SWITCH BETWEEN C AND F-->
+
+<label class="switch">
+    <input type="checkbox" switch />
+    <span class="slider round">
+      <div>
+        <span>C</span>
+        <span>F</span>
+      </div>
+    </span>
+  </label>
+  
+</div>
+
+<div>
+
+    <!--SOCIAL LINKS-->
+  <a href="https://github.com/codingmster1/weather-site" target="_blank"
+    ><i class="fa fa-github"></i></a>
+</div>
+
+</div>      
+<div>      
+</div>
     
 
 
 
-    
+    <script src="main.js"></script>
 </body>
 </html>
