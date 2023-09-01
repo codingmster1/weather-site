@@ -1,5 +1,5 @@
 (function displayWeather() {
-    /*Variables declaration */
+    
     const containerForm = document.querySelector('[container-form]');
     const userEntry = document.querySelector('[new-entry]');
     const toggleSwitch = document.querySelector('[switch]');
