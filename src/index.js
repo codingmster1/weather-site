@@ -48,21 +48,21 @@
     
     switch (data.weather[0].main) {
         case 'Clear':
-            document.body.style.backgroundImage = 'url("assets/ootclearsky.gif")';
+            document.body.style.backgroundImage = 'url("images/clear.gif")';
             break;
           case 'Clouds':
-            document.body.style.backgroundImage = 'url("assets/scatteredclouds.gif")';
+            document.body.style.backgroundImage = 'url("images/totk-partial-clouds.gif")';
             break;
           case 'Rain':
           case 'Drizzle':
           case 'Mist':
-            document.body.style.backgroundImage = 'url("assets/mcrain.webp")';
+            document.body.style.backgroundImage = 'url("images/rain-zelda.webp")';
             break;
           case 'Thunderstorm':
-            document.body.style.backgroundImage = 'url("assets/thunderstorm.gif")';
+            document.body.style.backgroundImage = 'url("images/thunderstorm.gif")';
             break;
           case 'Snow':
-            document.body.style.backgroundImage = 'url("assets/housesnow.gif")';
+            document.body.style.backgroundImage = 'url("images/d-snow.jpg")';
             break;
           default:
             break;
@@ -74,7 +74,6 @@
         const tempFeeling = document.querySelector('[tempFeeling]');
         const humidityMeter = document.querySelector('[humidity]');
         const windMeter = document.querySelector('[wind]');
-        const weatherImg = document.getElementById('image');
         const datePreview = document.querySelector('[date-time]');
         const dateAndTime = data.timezone;
         const weatherDescription = data.weather[0].description;
@@ -93,7 +92,7 @@
           tempFeel = kelvinToCelcius(tempFeel);
           cityTemperature.innerHTML = `${temp + '&degC'}`;
         }
-        weatherImg.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+       
         
         cityWeatherDescription.innerHTML =
         weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
