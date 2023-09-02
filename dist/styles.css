@@ -119,7 +119,15 @@ header {
     background-size: 30px 30px;
     background-position: 5px;
     text-indent: 30px;
+    
   }
+
+  .map:hover
+  {
+    cursor: pointer
+
+  }
+ 
 
   /* Switch*/
 .switch {
@@ -219,6 +227,12 @@ header {
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
+    }
+  }
+  @media only screen and (max-width: 412px) {
+    #search
+    {
+      width: 125px;
     }
   }
   

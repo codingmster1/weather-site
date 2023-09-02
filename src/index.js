@@ -50,21 +50,28 @@
         case 'Clear':
             document.body.style.backgroundImage = 'url("images/clear.gif")';
             break;
-          case 'Clouds':
-            document.body.style.backgroundImage = 'url("images/totk-partial-clouds.gif")';
+          
+            case 'Scattered':
+            document.body.style.backgroundImage = 'url("images/totk-partial-clouds.gif")';  
             break;
+            case 'Broken':
+            document.body.style.backgroundImage = 'url("images/main.jpg")';       
+            break;
+            case 'Overcast':
+            document.body.style.backgroundImage = 'url("images/cloudy.jpg")';
+            break;
+
           case 'Rain':
             document.body.style.backgroundImage = 'url("images/rain-zelda.webp")';
             break;
-          case 'Drizzle':
-            document.body.style.backgroundImage = 'url("images/drizzle.gif")';
-            break;
           case 'Mist':
-            document.body.style.backgroundImage = 'url("images/mist.webp")';
+          case 'Fog':
+            document.body.style.backgroundImage = 'url("images/The_Lost_Woods.jpeg")';
             break;
           case 'Thunderstorm':
             document.body.style.backgroundImage = 'url("images/thunderstorm.gif")';
             break;
+
           case 'Snow':
             document.body.style.backgroundImage = 'url("images/d-snow.jpg")';
             break;
