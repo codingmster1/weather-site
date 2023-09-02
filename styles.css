@@ -92,11 +92,11 @@ header {
   }
   .input h1 {
     font-weight: bold;
-    font-size: 30px;
+    
   }
   .input h5 {
     font-weight: bold;
-    font-size: 30px;
+    
   }
   h6
   {
@@ -232,6 +232,8 @@ header {
       background-repeat: no-repeat;
     }
   }
+
+ 
   @media only screen and (max-width: 412px) {
     #search
     {
