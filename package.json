@@ -4,6 +4,7 @@
   "description": "weather application",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "gh-deploy-init": "git push origin && git subtree push --prefix dist origin gh-pages"
   },
