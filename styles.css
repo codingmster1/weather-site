@@ -24,6 +24,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(images/main-background.jpg);
+    
    
 }
 
@@ -68,10 +69,10 @@ header {
   }
   .info h2 {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 50px;
   }
   .info p {
-    font-size: 25px;
+    font-size: 30px;
   }
   #city {
     font-weight: bold;
@@ -83,7 +84,7 @@ header {
   }
   #weatherInfo div {
     padding: 8px;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .input {
@@ -91,9 +92,11 @@ header {
   }
   .input h1 {
     font-weight: bold;
+    font-size: 30px;
   }
   .input h5 {
     font-weight: bold;
+    font-size: 30px;
   }
   h6
   {
