@@ -50,17 +50,10 @@
         case 'Clear':
             document.body.style.backgroundImage = 'url("images/clear.gif")';
             break;
-          
-            case 'Scattered':
+            case 'Clouds':
             document.body.style.backgroundImage = 'url("images/totk-partial-clouds.gif")';  
             break;
-            case 'Broken':
-            document.body.style.backgroundImage = 'url("images/main.jpg")';       
-            break;
-            case 'Overcast':
-            document.body.style.backgroundImage = 'url("images/cloudy.jpg")';
-            break;
-
+            
           case 'Rain':
             document.body.style.backgroundImage = 'url("images/rain-zelda.webp")';
             break;
