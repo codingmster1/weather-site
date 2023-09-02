@@ -63,7 +63,7 @@
           case 'Fog':
             document.body.style.backgroundImage = 'url("images/The_Lost_Woods.jpeg")';
             break;
-            
+
           case 'Thunderstorm':
             document.body.style.backgroundImage = 'url("images/thunderstorm.gif")';
             break;
