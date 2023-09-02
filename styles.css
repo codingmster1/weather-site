@@ -75,6 +75,7 @@ header {
   }
   #city {
     font-weight: bold;
+    
   }
   #temperature {
     font-size: 40px;
@@ -92,11 +93,11 @@ header {
     font-weight: bold;
   }
   .input h5 {
-    font-size: 30px;
+    font-weight: bold;
   }
   h6
   {
-    font-size:22px;
+    font-size:16px;
   }
   
   .centered {
@@ -201,6 +202,28 @@ header {
     color: white;
     font-size: 30px;
   }
+
+  @media only screen and (max-width: 601px) {
+    #city {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+    h5 
+    {
+      font-size: 18px;
+    }
+    body {
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+  
+
+
 
  
   
