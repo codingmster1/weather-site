@@ -54,9 +54,13 @@
             document.body.style.backgroundImage = 'url("images/totk-partial-clouds.gif")';
             break;
           case 'Rain':
-          case 'Drizzle':
-          case 'Mist':
             document.body.style.backgroundImage = 'url("images/rain-zelda.webp")';
+            break;
+          case 'Drizzle':
+            document.body.style.backgroundImage = 'url("images/drizzle.gif")';
+            break;
+          case 'Mist':
+            document.body.style.backgroundImage = 'url("images/mist.webp")';
             break;
           case 'Thunderstorm':
             document.body.style.backgroundImage = 'url("images/thunderstorm.gif")';
