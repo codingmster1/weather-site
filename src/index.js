@@ -59,13 +59,30 @@
             document.body.style.backgroundImage = 'url("images/rain-zelda.webp")';
             break;
 
+            case 'Drizzle':
+              document.body.style.backgroundImage = 'url("images/drizzlezelda.png")';
+            break;
+
+          case 'Haze':
           case 'Mist':
           case 'Fog':
             document.body.style.backgroundImage = 'url("images/The_Lost_Woods.jpeg")';
             break;
 
+            case 'Smoke':
+            document.body.style.backgroundImage = 'url("images/smoke.gif")';
+            break;
+
+            case 'Dust':
+            document.body.style.backgroundImage = 'url("images/dust.gif")';
+            break;
+
           case 'Thunderstorm':
             document.body.style.backgroundImage = 'url("images/thunderstorm.gif")';
+            break;
+
+            case 'Tornado':
+            document.body.style.backgroundImage = 'url("images/tornado.gif")';
             break;
 
           case 'Snow':
